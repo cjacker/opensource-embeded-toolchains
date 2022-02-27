@@ -1,5 +1,5 @@
 # Opensource Embeded Toolchains under Linux
-This project aims to provide a step by step tutorial and related resources to setup **opensource toolchains** and development environment **under Linux** for various common **embeded devices**. 
+This project aims to provide a series of step by step tutorials and related resources to setup **opensource toolchains** and development environment **under Linux** for various common **embeded devices**. 
 
 It will include but not limited to 8051/avr/stm8/stm32/riscv/fpga etc.
 
@@ -19,8 +19,10 @@ For embeded devices, beside compilers/debuggers, it should also include a flash 
 this project will include but not limited to below tutorials.
 - 8051(mainly STC51 series)
 - ![STM8](https://github.com/cjacker/opensource-toolchain-stm8)
-- MSP430
+- PIC?
+- MSP430?
 - AVR
+  - low priority since Arduino has a great and out-of-box development platform for Linux.
 - STM32
 - ![GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103)
 - CH32V(RISC-V 32bit MCU based on nuclei core)
