@@ -12,17 +12,21 @@ You may need an editor to write codes, there are vim/emacs/vscode/kak, etc.
 
 That's to say, in narrow sense， 'toolchain' is compiler and debugger, but not limited to it, a 'toolchain' should include all tools you need to finish the software development. 
 
-For embeded devices, beside compilers/debuggers, it should also include a flash tool to help you deploy softwares to target devices.
-
-## 8051
-A lot of vendors provide 8051 MCU, such as Atmel AT89/90 series, STC stc89/90/10/11/12/15/8x series and WCH ch5xx series. 
-
-8051 MCU is very old and the development is very simple, a lot of people complain that 'the resource of 8051 is very limited'. 
-
-Yes, it's. but for a beginner, maybe 8051 is the best choice to start learning embede development. since it have everything you need to know about embeded device development and **IT IS SIMPLE**.
-
-This tutorial is focus on STC 8051 MCU.
-
-### compiler
+For embeded devices, beside compilers/debuggers, it should also include a flash tool to help you transfer softwares to target devices.
 
 
+## tutorials
+this project will include but not limited to below tutorials.
+- 8051(mainly STC51 series)
+- ![STM8](https://github.com/cjacker/opensource-toolchain-stm8)
+- MSP430
+- AVR
+- STM32
+- ![GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103)
+- CH32V(RISC-V 32bit MCU based on nuclei core)
+  - I still consider write a tutorial for it or not. since its vendor use modified OpenOCD to support its private protocol RVSWD but not opensourced, maybe we should resist using such products.
+- RaspberryPi PICO RP2040
+- Lattice FPGA ECP5/ICE40
+- Gowin FPGA littlebee
+- Allwinner D1 nezha(not MCU)
+  - PhoenixCard is not opensourced and only for Windows.
