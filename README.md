@@ -20,15 +20,15 @@ You may also need an editor to write codes, there are vim/emacs/vscode, etc.
 
 That's to say, in narrow sense，'toolchain' is compiler and debugger. generally, a 'toolchain' should include all tools you need to do the software development. 
 
-For embeded devices, beside compilers/debuggers, it should also include a flashing/programming tool to help you 'transfer' the softwares to target devices, we usually call such software for embeded device as 'firmware', it may have or have not an operating system. by the way, we call it 'baremetal' if without a OS. 
+For embeded devices, beside compilers/debuggers, it should also include a flashing/programming tool to help you 'transfer' the softwares to target devices, we usually call such software for embeded device as 'firmware'. 
 
 ## What's a cross-compile toolchain
 
-Usually, we work with a PC/Laptop with Intel or AMD CPU and with Linux installed, the toolchain described above run on X86_64 architechture and generate binaries for X86_64 architechture. for example, linux OS can build itself on the same Linux OS and gcc/clang can build itself by gcc/clang. we call this as '**bootstrap**', means it can build itself by itself.
+Usually, we work with a Intel or AMD CPU PC/Laptop and with Linux installed, the toolchain described above run on X86_64 architechture and generate binaries for X86_64 architechture. for example, linux OS can build itself on the same Linux OS and gcc/clang can build itself by gcc/clang. we call this as '**bootstrap**', here it means building itself by itself.
 
-But we may also need to run toolchains on PC and generate binaries run on other ARCH, such as ARM, AARCH64, MIPS, RISC-V, etc. Such a toolchain called '**cross-compile**' toolchain. you may already use it before, for example, NDK toolchain of Android or IOS toolchain, it run on X86 PC host but generate binaries for ARM target.
+But we may also need to run toolchains on X86 PC and generate binaries for another ARCH, such as ARM, AARCH64, MIPS, RISC-V, etc. Such a toolchain called '**cross-compile**' toolchain. you may already use it before, for example, NDK toolchain of Android or IOS toolchain, it run on X86 PC host but generate binaries for ARM target.
 
-You may already notice that commands of such a 'cross-compile' toolchain always start with a special string, such as 'arm-none-eabi-gcc', and may also find such a string if you run 'gcc' on your PC linux, for example, "x86_64-redhat-linux". such a string called **['triplet'](https://wiki.osdev.org/Target_Triplet)**, toolchain's triplet have this simple structure: 
+You may notice that commands of such a 'cross-compile' toolchain always start with a special string, such as 'arm-none-eabi-gcc', and may also find such a string if you run 'gcc -v' on your PC linux, for example, "x86_64-redhat-linux". such a string called **['triplet'](https://wiki.osdev.org/Target_Triplet)**, toolchain's triplet have this simple structure: 
 
 ```
 machine-vendor-operatingsystem
@@ -37,7 +37,7 @@ machine-vendor-operatingsystem
 The 'machine' field usually contains a 'architechture' name, such as x86_64, arm, aarch64, riscv, etc. the 'vendor' field usually contains the brand of vendor, and the 'operatingsystem' usually contains the os name, the c library name or abi name.
 
 For instance:
-* 'x86_64-unknown-linux-gnu' means target is x86_64 machine / unknown vendor / linux OS with glibc.
+* 'x86_64-unknown-linux[-gnu]' means target is x86_64 machine / unknown vendor / linux OS with glibc.
 * 'x86_64-alpine-linux-musl' means target is x86_64 machine / alpine linux / linux OS with musl libc.
 * 'arm-none-eabi' means target is arm machine / not limited to specific vendor / without requiring of a os and with embedded-application binary interface(EABI) support
 
@@ -45,7 +45,7 @@ Besides above rules, toolchian's triplet can be used by compilers to find corres
 
 For a 'cross-compile' toolchain with OS support, there is also need a target os '**sysroot**' which contains the root filesystem and libraries of target system that the compiler can find headers and link to target libs.
 
-For embeded device, we mostly work with a cross-compile toochain and compile sources on X86 PC to generate the target binaries. most MCU do NOT require a seperate OS installed, we call it as 'baremetal'.
+For embeded device, most MCU do NOT require a seperate OS installed, we call it 'baremetal'.
 
 
 ## Toolchain Tutorials
