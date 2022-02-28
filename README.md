@@ -20,13 +20,13 @@ You may also need an editor to write codes, there are vim/emacs/vscode, etc.
 
 That's to say, in narrow sense，'toolchain' is compiler and debugger. generally, a 'toolchain' should include all tools you need to do the software development. 
 
-For embeded devices, beside compilers/debuggers, it should also include a flashing/programming tool to help you 'transfer' the softwares to target devices, we usually call such software for embeded device as 'firmware'. 
+For embeded devices, beside compilers/debuggers, it should also include a flashing/programming tool to help you 'transfer' the softwares to target devices' storage or RAM, we usually call the software as 'firmware' or 'image', and call this 'transfer' process as 'flash' or 'program' or 'burn' or 'download', etc. 
 
 ## What's a cross-compile toolchain
 
-Usually, we work with a Intel or AMD CPU PC/Laptop and with Linux installed, the toolchain described above run on X86_64 architechture and generate binaries for X86_64 architechture. for example, linux OS can build itself on the same Linux OS and gcc/clang can build itself by gcc/clang. we call this as '**bootstrap**', here it means building itself by itself.
+Usually, we work with a Intel or AMD PC/Laptop and with Linux installed, the toolchain described above run on X86_64 architechture and generate binaries for X86_64 architechture. for example, linux OS can build itself on the same Linux OS and gcc/clang can build itself by gcc/clang. we call this '**bootstrap**', here it means building itself by itself.
 
-But we may also need to run toolchains on X86 PC and generate binaries for another ARCH, such as ARM, AARCH64, MIPS, RISC-V, etc. Such a toolchain called '**cross-compile**' toolchain. you may already use it before, for example, NDK toolchain of Android or IOS toolchain, it run on X86 PC host but generate binaries for ARM target.
+But we may also need to run toolchains on X86 PC and generate binaries for another architechture, such as ARM, AARCH64, MIPS, RISC-V, etc. Such a toolchain called '**cross-compile**' toolchain. you may already use it before, for example, NDK toolchain of Android or IOS toolchain, it run on X86 PC host but generate binaries for ARM target.
 
 You may notice that commands of such a 'cross-compile' toolchain always start with a special string, such as 'arm-none-eabi-gcc', and may also find such a string if you run 'gcc -v' on your PC linux, for example, "x86_64-redhat-linux". such a string called **['triplet'](https://wiki.osdev.org/Target_Triplet)**, toolchain's triplet have this simple structure: 
 
@@ -34,25 +34,25 @@ You may notice that commands of such a 'cross-compile' toolchain always start wi
 machine-vendor-operatingsystem
 ```
 
-The 'machine' field usually contains a 'architechture' name, such as x86_64, arm, aarch64, riscv, etc. the 'vendor' field usually contains the brand of vendor, and the 'operatingsystem' usually contains the os name, the c library name or abi name.
+The 'machine' field usually indicate the 'architechture', such as x86_64, arm, aarch64, riscv, etc. the 'vendor' field usually contains the brand of vendor, and the 'operatingsystem' usually contains the os name, the c library name or abi name.
 
 For instance:
-* 'x86_64-unknown-linux[-gnu]' means target is x86_64 machine / unknown vendor / linux OS with glibc.
+* 'x86_64-unknown-linux[-gnu]' means target is x86_64 machine / unknown vendor / linux OS with glibc, sometime '-gnu' may be omitted.
 * 'x86_64-alpine-linux-musl' means target is x86_64 machine / alpine linux / linux OS with musl libc.
-* 'arm-none-eabi' means target is arm machine / not limited to specific vendor / without requiring of a os and with embedded-application binary interface(EABI) support
+* 'arm-none-eabi' means target is arm machine / not limited to specific vendor / without requiring of a os and with embedded-application binary interface(EABI) support.
 
-Besides above rules, toolchian's triplet can be used by compilers to find corresponding assemblers/linkers with same triplet. for example, a 'arm-none-eabi-gcc' usually use 'arm-none-eabi-as' as its assembler, it's not mandary but a convention in toolchain's source codes.
+Besides above rules, toolchian's triplet is used by compilers to find corresponding assemblers/linkers with same triplet. for example, 'arm-none-eabi-gcc' usually use 'arm-none-eabi-as' as its assembler, it's not mandary but a convention in toolchain's source codes.
 
 For a 'cross-compile' toolchain with OS support, there is also need a target os '**sysroot**' which contains the root filesystem and libraries of target system that the compiler can find headers and link to target libs.
 
-For embeded device, most MCU do NOT require a seperate OS installed, we call it 'baremetal'.
+For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal'.
 
 
 ## Toolchain Tutorials
 
 This project will include but not limited to below tutorials, every tutorial and related resources will be provided by a seperate repo:
 
-**For any updates, mistakes, troubles, issues, welcome to submit issues to corresponding repo.**
+**For any updates, mistakes, troubles, issues, welcome to submit issues or pull request to corresponding repo.**
 
 
 - [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series)
