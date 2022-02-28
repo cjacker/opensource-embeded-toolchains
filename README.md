@@ -18,14 +18,14 @@ For embeded devices, beside compilers/debuggers, it should also include a flash 
 ## tutorials
 
 this project will include but not limited to below tutorials.
-- 8051(mainly STC51 series)
-- ![STM8](https://github.com/cjacker/opensource-toolchain-stm8)
+- [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series)
+- [STM8](https://github.com/cjacker/opensource-toolchain-stm8)
 - PIC?
 - MSP430?
 - AVR
   - low priority since Arduino has a great and out-of-box development platform for Linux.
 - STM32
-- ![GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103)
+- [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103)
 - CH32V(RISC-V 32bit MCU based on nuclei core)
   - I still consider write a tutorial for it or not. since its vendor use modified OpenOCD to support its private protocol RVSWD but not opensourced, maybe we should resist using such products.
 - RaspberryPi PICO RP2040
