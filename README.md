@@ -47,6 +47,9 @@ For a 'cross-compile' toolchain with OS support, there is also need a target os 
 
 For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal'.
 
+## Why should I use opensource toolchain
+
+No, you do not have to, but why not.
 
 ## Toolchain Tutorials
 
