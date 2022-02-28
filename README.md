@@ -52,6 +52,9 @@ For embeded device, most MCU do NOT require a seperate OS installed, we call it 
 
 This project will include but not limited to below tutorials, every tutorial and related resources will be provided by a seperate repo:
 
+**For any updates, mistakes, troubles, issues, welcome to submit issues to corresponding repo.**
+
+
 - [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series)
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8)
 - PIC?
