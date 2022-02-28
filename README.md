@@ -73,3 +73,5 @@ This project will include but not limited to below tutorials, every tutorial and
 - Gowin FPGA littlebee
 - Allwinner D1 nezha(not MCU)
   - PhoenixCard (the SD card image burning tool) is not opensource and only for Windows.
+
+This series of tutorials will not cover Raspberry Pi. it's a slow PC with IO PIN and has nothing special.
