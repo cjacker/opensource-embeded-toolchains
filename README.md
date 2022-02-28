@@ -4,7 +4,7 @@ This project aims to provide a series of step by step tutorials and related reso
 
 It will include but not limited to 8051/avr/stm8/stm32/riscv/fpga etc.
 
-## what's a toolchain
+## What's a toolchain
 A 'toolchain' gennerally means a set of programming tools include assembler/compiler/linker and debugger etc. for example, a lot of PC linux distributions provide 'binutils' as assembler/linker and various binary related tools, gcc/clang as compilers, gdb/lldb as debugger. the 'C compiler' pre-process source files and translate it to asm and the assembler 'gas' translate asm sources to target objects, and the linker 'ld/gold/lld' link various objects and form the final ELF binary, maybe a excutable binary or a library. acctually, you can treat "compiler" as "translator", but a more complex "translator". (by the way, Clang/LLVM is a little bit difference, since it supports IR format)
 
 You may need project managing tools to help you organize and build source files instead of typing compilation commands every time, there are make/automake/autoconf/ninja/cmake/scons/meson, etc.
@@ -15,7 +15,7 @@ That's to say, in narrow sense，'toolchain' is compiler and debugger. Generally
 
 For embeded devices, beside compilers/debuggers, it should also include a flash tool to help you 'transfer' softwares to target devices.
 
-## tutorials
+## Toolchain Tutorials
 
 this project will include but not limited to below tutorials.
 - [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series)
