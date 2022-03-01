@@ -51,26 +51,28 @@ For embeded device, most MCU do **NOT** require a seperate OS installed, we call
 
 No, you do not have to, but why not.
 
+Actually, opensource toolchain already rule the world and you may already use it before.
+
 ## Toolchain Tutorials
 
 This project will include but not limited to below tutorials, every tutorial and related resources will be provided by a seperate repo:
 
-**For any updates, mistakes, troubles, issues, welcome to submit issues or pull request to corresponding repo.**
+**For any updates/mistakes/troubles/issues/improvements, etc., welcome to submit issues or pull request to corresponding repo.**
 
 
-- [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series)
-- [STM8](https://github.com/cjacker/opensource-toolchain-stm8)
+- [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series) **[DONE]**
+- [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DOING]**
 - PIC?
 - MSP430?
 - AVR
   - low priority since Arduino has a great development platform for Linux.
 - STM32
-- [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103)
+- [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
 - CH32V(RISC-V 32bit MCU based on nuclei core)
-  - I still consider write a tutorial for it or not. since its vendor use modified OpenOCD to support private protocol RVSWD but not opensourced, we should resist using such product.
+  - I still consider a tutorial for it or not. since its vendor used modified OpenOCD to support private protocol RVSWD but not opensourced, we should resist using such product.
 - RaspberryPi PICO RP2040
-- Lattice FPGA ECP5/ICE40
-- Gowin FPGA littlebee
+- Lattice FPGA ECP5/ICE40 **[DONING]**
+- Gowin FPGA littlebee **[DONING]**
 - Allwinner D1 nezha(not MCU)
   - PhoenixCard (the SD card image burning tool) is not opensource and only for Windows.
 
