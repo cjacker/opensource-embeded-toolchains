@@ -69,7 +69,9 @@ This project will include but not limited to below tutorials, every tutorial and
 - STM32
 - [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
 - CH32V(RISC-V 32bit MCU based on nuclei core)
-  - I still consider a tutorial for it or not. since its vendor used modified OpenOCD to support private protocol RVSWD but not opensourced, we should resist using such product.
+  - It does NOT support standard debugging interface such as SWD/JTAG
+  - It implemented a private protocol named RVSWD and modified OpenOCD codes, but not opensourced.
+  - **I sugguest to resist using such product until it follows the requirements of LICENSE and opensource their codes.**
 - RaspberryPi PICO RP2040
 - Lattice FPGA ECP5/ICE40 **[DONING]**
 - Gowin FPGA littlebee **[DONING]**
