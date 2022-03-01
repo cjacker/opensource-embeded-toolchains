@@ -71,7 +71,7 @@ This project will include but not limited to below tutorials, every tutorial and
 - CH32V(RISC-V 32bit MCU based on nuclei core)
   - It does NOT support standard debugging interface such as SWD/JTAG
   - It implemented a private protocol named RVSWD and modified OpenOCD codes, but not opensourced.
-  - **I sugguest to resist using such product until it follows the requirements of LICENSE and opensource their codes.**
+  - **Please resist using such product until it follows the requirements of LICENSE and opensource their codes.**
 - RaspberryPi PICO RP2040
 - Lattice FPGA ECP5/ICE40 **[DONING]**
 - Gowin FPGA littlebee **[DONING]**
