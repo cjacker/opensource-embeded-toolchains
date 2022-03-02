@@ -65,7 +65,6 @@ This project will include but not limited to below tutorials, every tutorial and
 - PIC?
 - MSP430?
 - AVR
-  - low priority since Arduino has a great development platform for Linux.
 - STM32
 - [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
 - CH32V(RISC-V 32bit MCU)
