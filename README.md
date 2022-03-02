@@ -61,7 +61,7 @@ This project will include but not limited to below tutorials, every tutorial and
 
 
 - [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series) **[DONE]**
-- [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DOING]**
+- [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - PIC?
 - MSP430?
 - AVR
