@@ -61,13 +61,13 @@ Every tutorial and related resources will be provided in a seperate repo:
 - [8051](https://github.com/cjacker/opensource-toolchain-8051)(mainly for STC51 series) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [GD32VF103(RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+- [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
 - AVR
 - STM32
 - RPI Pico RP2040
 - Lattice FPGA ECP5/ICE40 **[DOING]**
 - Gowin FPGA littlebee **[DOING]**
 - PIC?
-- MSP430?
 - CH32V(RISC-V 32bit MCU)
   - It does NOT support standard debugging interface such as SWD/JTAG
   - It implemented a private protocol named RVSWD and modified OpenOCD codes, but not opensourced.
