@@ -67,10 +67,16 @@ Every tutorial and related resources will be provided in a seperate repo:
 - RPI Pico RP2040
 - Lattice FPGA ECP5/ICE40 **[DOING]**
 - Gowin FPGA littlebee **[DOING]**
-- PIC?
-- CH32V(RISC-V 32bit MCU)
+- Allwinner D1 nezha(not MCU)
+  - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
+
+**Which will not have a tutorial:**
+- PIC16/18
+  - the whole product line is not opensource friendly.
+  - you need special and expensive programmer, only PICkit2 has opensource flash tool support (pk2cmd) and it does not support all models.
+  - There is MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. 
+- CH32V series (RISC-V 32bit MCU)
   - It does NOT support standard debugging interface such as SWD/JTAG
   - It implemented a private protocol named RVSWD and modified OpenOCD codes, but not opensourced.
-  - **Please resist using such product until it follows the requirements of LICENSE and opensource their codes.**
-- Allwinner D1 nezha(not MCU)
-  - PhoenixCard (the SD card image burning tool) is not opensource and only for Windows.
+  - **Please resist using such product until it follows LICENSE and opensource the codes.**
+
