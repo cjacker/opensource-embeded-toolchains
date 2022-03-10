@@ -4,9 +4,9 @@ This project aims to provide a series of step by step tutorials and related reso
 
 It will include but not limited to 8051/avr/msp43x/stm8/stm32/riscv/fpga etc. 
 
-These tutorials are not aim to teach beginners how to write codes for specific MCU. Although some project templates or examples to demo how to use a toolchain will be provided, but it's not the first goal.
+These tutorials are not aim to teach beginners how to write codes for specific MCU. Although some project templates or examples to demo how to use a toolchain will be provided.
 
-The first goal of this project is **to help beginners setup a workable toolchain and development environment to start MCU development quickly under Linux**, and to show what opensource community have done and the power of opensource software.
+The goal of this project is **to help beginners setup a workable toolchain and development environment to start MCU development quickly under Linux**, and to show what opensource community have done and the power of opensource software.
 
 ## What's a toolchain
 
