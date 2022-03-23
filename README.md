@@ -63,10 +63,10 @@ Every tutorial and related resources will be provided in a seperate repo:
 - [GD32VF103 (RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
 - [RPI Pico RP2040](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
+- [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
+- [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
 - AVR
 - STM32
-- Lattice FPGA ECP5/ICE40 **[DOING]**
-- Gowin FPGA littlebee **[DOING]**
 - Allwinner D1 nezha(not MCU)
   - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
