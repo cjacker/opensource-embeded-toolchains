@@ -1,4 +1,4 @@
-# Opensource Embeded Toolchains under Linux
+# Embeded Toolchains in opensource way
 
 This project aims to provide a series of step by step tutorials and related resources/tools/project templates to setup **opensource toolchains** and development environment **under Linux** for various **embeded devices**. 
 
@@ -6,7 +6,7 @@ It will include but not limited to 8051/avr/msp43x/stm8/stm32/riscv/fpga etc.
 
 These tutorials are not aim to teach beginners how to write codes for specific MCU. Although some project templates or examples to demo how to use a toolchain will be provided.
 
-The goal of this project is **to help beginners setup a workable toolchain and development environment to start MCU development quickly under Linux**, and to show what opensource community have done and the power of opensource software.
+The goal of this project is **to help beginners setup a workable opensource toolchain and development environment to start MCU development quickly under Linux**, and to show what opensource community have done and the power of opensource software.
 
 ## What's a toolchain
 
@@ -49,7 +49,7 @@ For embeded device, most MCU do **NOT** require a seperate OS installed, we call
 
 No, you do not have to, but why not.
 
-Actually, opensource toolchain already rule the world and you may already use it before.
+Actually, opensource toolchains already rule the world and you may already use them before such as clang/gcc/gdb and openocd.
 
 ## Toolchain Tutorials
 
