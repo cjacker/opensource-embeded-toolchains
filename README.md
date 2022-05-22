@@ -65,6 +65,7 @@ Every tutorial and related resources will be provided in a seperate repo:
 - [RPI Pico RP2040](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
 - [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
 - [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
+- WCH CH32V series RISC-V 32bit MCU
 - AVR
 - STM32
 - Allwinner D1 nezha(not MCU)
@@ -75,8 +76,8 @@ Every tutorial and related resources will be provided in a seperate repo:
   - the whole product line is not opensource friendly.
   - you need special and expensive programmer, only PICkit2 has opensource flash tool support (pk2cmd) and it does not support all models.
   - There is MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. 
-- CH32V series (RISC-V 32bit MCU)
+- ~~WCH CH32V series RISC-V 32bit MCU~~
   - It does NOT support standard debugging interface such as SWD/JTAG
-  - It implemented a private protocol named RVSWD and modified OpenOCD codes, but not opensourced.
-  - **Please resist using such product until it follows LICENSE and opensource the codes.**
+  - It implemented a private protocol named RVSWD and modified OpenOCD codes, ~~but not opensourced.~~ **2022-05-22, recently wch opened the openocd sourcecodes, I will write a tutorial for it.**
+  - ~~**Please resist using such product until it follows LICENSE and opensource the codes.**~~
 
