@@ -57,17 +57,17 @@ Every tutorial and related resources will be provided in a seperate repo:
 
 **For any issues, welcome to submit issue or pull request to corresponding repo.**
 
-
 - [8051](https://github.com/cjacker/opensource-toolchain-8051) (mainly for STC51 series) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
-- [GD32VF103 (RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+- AVR
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
+- STM32
+- [GD32VF103 (RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+- [WCH CH32V series RISC-V 32bit MCU](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
 - [RPI Pico RP2040](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
 - [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
 - [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
-- [WCH CH32V series RISC-V 32bit MCU](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
-- AVR
-- STM32
+
 - Allwinner D1 nezha(not MCU)
   - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
