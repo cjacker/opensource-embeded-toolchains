@@ -57,7 +57,7 @@ Every tutorial and related resources will be provided in a seperate repo:
 
 **For any issues, welcome to submit issue or pull request to corresponding repo.**
 
-- [8051](https://github.com/cjacker/opensource-toolchain-8051) (mainly for STC51 series) **[DONE]**
+- [8051](https://github.com/cjacker/opensource-toolchain-8051) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - AVR
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
