@@ -57,26 +57,40 @@ Every tutorial and related resources will be provided in a seperate repo:
 
 **For any issues, welcome to submit issue or pull request to corresponding repo.**
 
+**8 bit**
+
 - [8051](https://github.com/cjacker/opensource-toolchain-8051) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
-- AVR
+- [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
+
+**16 bit**
+
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
+
+**32 bit**
+
 - STM32
 - [GD32VF103 (RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
 - [WCH CH32V series RISC-V 32bit MCU](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
 - [RPI Pico RP2040](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
-- [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
-- [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
+
+**64 bit**
 
 - Allwinner D1 nezha(not MCU)
   - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
+**fpga**
+
+- [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
+- [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
+
+
 **Which will not have a tutorial:**
 
 - PIC16/18
-  - the whole product line is not opensource friendly.
-  - you need special and expensive programmer, only PICkit2 has opensource flash tool support (pk2cmd) and it does not support all models.
-  - There is MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. 
+  - the whole product line of PIC is not opensource friendly, even worse than other vendors.
+  - you need hardware programmer without opensource support. only PICkit2 has opensource support (pk2cmd) and it does not support all MCU models.
+  - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations for free license.
 
 - ~~WCH CH32V series RISC-V 32bit MCU~~
   - It does NOT support standard debugging interface such as SWD/JTAG
