@@ -62,6 +62,7 @@ Every tutorial and related resources will be provided in a seperate repo:
 - [8051](https://github.com/cjacker/opensource-toolchain-8051) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
+- [PIC](https://github.com/cjacker/opensource-toolchain-pic) **[DONE]**
 
 **16 bit**
 
@@ -87,13 +88,14 @@ Every tutorial and related resources will be provided in a seperate repo:
 
 **Which will not have a tutorial:**
 
-- PIC16/18
+- ~~8bit PIC~~
   - the whole product line of PIC is not opensource friendly, even worse than other vendors.
-  - you need hardware programmer without opensource support. only PICkit2 has opensource support (pk2cmd) and it does not support all MCU models.
+  - ~~you need hardware programmer without opensource support. only PICkit2 has opensource support (pk2cmd) and it does not support all MCU models.~~
+  - gputils and the PIC part of SDCC is un-maintained now. 
   - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations for free license.
-
+  
 - ~~WCH CH32V series RISC-V 32bit MCU~~
   - It does NOT support standard debugging interface such as SWD/JTAG
-  - It implemented a private protocol named RVSWD and modified OpenOCD codes, ~~but not opensourced.~~ **2022-05-22, recently WCH opened forked OpenOCD source codes, I will write a tutorial for it.**
+  - It implemented a private protocol named RVSWD and modified OpenOCD codes, ~~but not opensourced.~~ **2022-05-22, recently WCH opened the source code of its' private forked OpenOCD, I will write a tutorial for it.**
   - ~~**Please resist using such product until it follows LICENSE and opensource the codes.**~~
 
