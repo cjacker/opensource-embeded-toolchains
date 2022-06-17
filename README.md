@@ -43,7 +43,7 @@ Besides above rules, toolchian's triplet is used by compilers to find correspond
 
 For a 'cross-compile' toolchain with OS support, there is also need a target os '**sysroot**' which contains the root filesystem and libraries of the target system that the compiler can find headers and link to target libs.
 
-For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal'.
+For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal', it means without requirement to have a OS.
 
 ## Why should I use opensource toolchain
 
@@ -89,8 +89,8 @@ Every tutorial and related resources will be provided in a seperate repo:
 **Which will not have a tutorial:**
 
 - ~~8bit PIC~~
-  - the whole product line of PIC is not opensource friendly, even worse than other vendors.
-  - ~~you need hardware programmer without opensource support. only PICkit2 has opensource support (pk2cmd) and it does not support all MCU models.~~
+  - the whole product line of PIC is not opensource friendly from beginning, worse than any other MCU vendors.
+  - ~~you need hardware debugger/programmer without opensource support. only old PICKIT2 has opensource support (pk2cmd from Microchip) and it is a little bit outdated.~~
   - gputils and the PIC part of SDCC is un-maintained now. 
   - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations for free license.
   
