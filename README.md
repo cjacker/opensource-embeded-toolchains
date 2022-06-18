@@ -45,7 +45,7 @@ For a 'cross-compile' toolchain with OS support, there is also need a target os 
 
 For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal', it means without requirement to have a OS.
 
-## Is there any good opensource debug sulotion for specific MCU?
+## Is there any good opensource debug solution for specific MCU?
 
 Any toolchain based on GNU opensource toolchain should have complete opensource debug solution based on gdb/OpenOCD.
 
@@ -103,10 +103,8 @@ Every tutorial and related resources will be provided in a seperate repo:
 **Which will not have a tutorial:**
 
 - ~~8bit PIC~~
-  - the whole product line of PIC is not opensource friendly from beginning, worse than any other MCU vendors.
-  - ~~you need hardware debugger/programmer without opensource support. only old PICKIT2 has opensource support (pk2cmd from Microchip) and it is a little bit outdated.~~
-  - gputils and the PIC part of SDCC is un-maintained now. 
-  - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations for free license.
+  - ~~gputils and ~~the PIC part of SDCC is un-maintained now. **gputils updated recently and there is gcbasic for PIC with very active development.**
+  - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations with free license.
   
 - ~~WCH CH32V series RISC-V 32bit MCU~~
   - It does NOT support standard debugging interface such as SWD/JTAG
