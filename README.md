@@ -45,7 +45,21 @@ For a 'cross-compile' toolchain with OS support, there is also need a target os 
 
 For embeded device, most MCU do **NOT** require a seperate OS installed, we call it 'baremetal', it means without requirement to have a OS.
 
-## Why should I use opensource toolchain
+## Is there any good opensource debug sulotion for specific MCU?
+
+Any toolchain based on GNU opensource toolchain should have complete opensource debug solution based on gdb/OpenOCD.
+
+Some 8-bit MCUs does not use GNU toolchain, most of them were supported by SDCC, and maybe lack of opensource debug support.
+
+But you should understand that MCU software/firmware development is different with common PC software development.
+
+Debugging MCU code isn't quite the same as debugging code for a PC because the MCU code is usually controlling physical outputs or receiving physical inputs to/from the real world and the debugging process has to take those into account. Since the signal sequences to communicate with peripheral devices is time-critical, you can not break or pause it as PC software development, the software debugger won't help you too much. 
+
+Usually the MCU debugging process is always combined with simulator, debugger, Serial print and logic analyzer etc.
+
+Thus, 'lack of opensource debug sulotion with specific MCU' is not a big issue to using the opensource toolchain in real project.
+
+## Why should I use opensource toolchain?
 
 No, you do not have to, but why not.
 
