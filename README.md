@@ -1,5 +1,7 @@
 # Embeded Toolchains in opensource way
 
+**NOTE: the MIT license of this repo means all individual resources made by myself, the content of the tutorial and the example codes is licensed under MIT. All third-party opensource projects, upstream source codes and patches to other opensource projects will/should follow their own LICENSE.**
+
 This project aims to provide a series of step by step tutorials and related resources/tools/project templates to setup **opensource toolchains** and development environment **under Linux** for various **embeded devices**. 
 
 It will include but not limited to 8051/avr/msp43x/stm8/stm32/riscv/fpga etc. 
