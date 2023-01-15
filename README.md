@@ -105,7 +105,7 @@ Every tutorial and related resources will be provided in a seperate repo:
 **Which will not have a tutorial:**
 
 - ~~8bit PIC~~
-  - ~~gputils and ~~the PIC part of SDCC is un-maintained now. **gputils updated recently and there is gcbasic for PIC with very active development.**
+  - ~~gputils and~~the PIC part of SDCC is un-maintained now. **gputils updated recently and there is gcbasic and jal for PIC with very active development.**
   - There is official MPLAB X IDE for linux and xc8 with free license, if you do not care about opensource or not. but xc8 has worse optimizations with free license.
   
 - ~~WCH CH32V series RISC-V 32bit MCU~~
