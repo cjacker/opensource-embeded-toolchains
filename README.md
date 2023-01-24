@@ -79,6 +79,7 @@ Every tutorial and related resources will be provided in a seperate repo:
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
 - [PIC](https://github.com/cjacker/opensource-toolchain-pic) **[DONE]**
+- Padauk
 
 **16 bit**
 
