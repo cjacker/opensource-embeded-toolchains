@@ -73,9 +73,9 @@ Every tutorial and related resources will be provided in a seperate git repo:
 **32 bit**
 
 - Cortex-M (ARM 32bit)
+  + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
 - [GD32VF103 (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
-- [WCH CH32V (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
-- [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
+- [WCH CH32V (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
 
 **64 bit**
 
