@@ -87,10 +87,10 @@ Every tutorial and related resources will be provided in a seperate repo:
 
 **32 bit**
 
-- STM32 (ARM)
-- [GD32VF103 (RISC-V 32bit MCU based on nuclei core)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
-- [WCH CH32V (RISC-V 32bit MCU)](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
-- [RPI Pico RP2040 (ARM)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
+- Cortex-M (ARM 32bit)
+- [GD32VF103 (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+- [WCH CH32V (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]**
+- [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
 
 **64 bit**
 
