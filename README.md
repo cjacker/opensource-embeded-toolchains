@@ -72,7 +72,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [CH32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
-- [RISC-V 32bit]
+- RISC-V 32bit
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
     - include WCH RISC-V BLE (CH571/573/581/582/583)
