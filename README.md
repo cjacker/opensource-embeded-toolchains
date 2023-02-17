@@ -1,7 +1,5 @@
 # Embeded Toolchains in opensource way
 
-**NOTE: the MIT license of this repo means all individual resources made by myself, the content of the tutorial and the example codes is licensed under MIT. All third-party opensource projects, upstream source codes and patches to other opensource projects will/should follow their own LICENSE.**
-
 This project aims to provide a series of step by step tutorials and related resources/tools/project templates to setup **opensource toolchains** and development environment **on Linux** for various **embeded devices**. 
 
 It will include but not limited to 8051/avr/msp43x/stm8/Cortex-M(stm32, etc)/RISC-V/fpga etc. 
@@ -59,7 +57,6 @@ Actually, opensource toolchains already rule the world and you may already use t
 Every tutorial and related resources will be provided in a seperate git repo:
 
 **8 bit**
-
 - [8051](https://github.com/cjacker/opensource-toolchain-8051) **[DONE]**
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
@@ -67,27 +64,28 @@ Every tutorial and related resources will be provided in a seperate git repo:
 - Padauk
 
 **16 bit**
-
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
 
 **32 bit**
-
-- [Cortex-M (ARM 32bit)](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
+- [ARM Cortex-M 32bit](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [STM32](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [GD32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [CH32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
-- [GD32VF103 (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
-- [CH32V (RISC-V 32bit)](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
-  + include WCH RISC-V BLE (CH571/573/581/582/583)
+- [RISC-V 32bit]
+  + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+  + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
+    - include WCH RISC-V BLE (CH571/573/581/582/583)
+- CSKY 32bit
+  + XT-E804
+    - include Winner Micro HLK W800/W801/W806 and Luat Air101（same as W806）
 
 **64 bit**
+- RISC-V 64bit
+  + Allwinner D1 nezha(not MCU)
+    - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
-- Allwinner D1 nezha(not MCU)
-  - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
-
-**fpga**
-
+**FPGA**
 - [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
 - [Gowin LittleBee FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
 
