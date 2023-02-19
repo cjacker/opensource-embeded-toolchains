@@ -76,6 +76,10 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
     - include WCH RISC-V BLE (CH571/573/581/582/583)
+  + HPM6750
+  + CSV32RV20
+  + CM32Mxxx
+  + AB32VG1
 - CSKY 32bit
   + XT-E804
     - include Winner Micro HLK W800/W801/W806 and Luat Air101（same as W806）
