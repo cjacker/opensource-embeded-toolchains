@@ -80,8 +80,9 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + CSV32RV20
   + CM32Mxxx
   + AB32VG1
+  + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab)
 - CSKY 32bit
-  + XT-E804
+  + [HLK W80X](https://github.com/cjacker/opensource-toolchain-w80x)
     - include Winner Micro HLK W800/W801/W806 and Luat Air101（same as W806）
 
 **64 bit**
