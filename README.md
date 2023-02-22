@@ -76,11 +76,11 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
     - include WCH RISC-V BLE (CH571/573/581/582/583)
-  + HPM6750
-  + CSV32RV20
-  + CM32Mxxx
-  + AB32VG1
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab)
+  + HPM6750
+  + AB32VG1
+  + ~~CSV32RV20~~
+  + ~~CM32M4xxxR~~
 - CSKY 32bit
   + [HLK W80X](https://github.com/cjacker/opensource-toolchain-w80x)
     - include Winner Micro HLK W800/W801/W806 and Luat Air101（same as W806）
