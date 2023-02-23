@@ -78,7 +78,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
     - include WCH RISC-V BLE (CH571/573/581/582/583)
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab)
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
-  + AB32VG1
+  + ~~AB32VG1~~
   + ~~CSV32RV20~~
   + ~~CM32M4xxxR~~
 - CSKY 32bit
