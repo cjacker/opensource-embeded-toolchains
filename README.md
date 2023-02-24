@@ -82,7 +82,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + ~~CSV32RV20~~
   + ~~CM32M4xxxR~~
 - CSKY 32bit
-  + [HLK W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
+  + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
     - include Winner Micro HLK W800/W801/W806 and Luat AIR101/AIR103
 
 **64 bit**
