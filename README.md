@@ -83,7 +83,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + ~~CM32M4xxxR~~
 - C-Sky 32bit
   + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
-    - include Winner Micro HLK W800/W801/W806 and Luat AIR101/AIR103
+    - include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
 
 **64 bit**
 - RISC-V 64bit
