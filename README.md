@@ -61,7 +61,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
 - [PIC](https://github.com/cjacker/opensource-toolchain-pic) **[DONE]**
-- Padauk
+- Padauk, working in progress
 
 **16 bit**
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
@@ -76,7 +76,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
     - include WCH RISC-V BLE (CH571/573/581/582/583)
-  + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab)
+  + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
   + ~~AB32VG1~~, no official program tool for linux, no opensource program tool.
   + ~~CSV32RV20~~, no offcial program tool for linux, no opensource program tool.
@@ -87,6 +87,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 
 **64 bit**
 - RISC-V 64bit
+  + Kendryte K210, working in progress
   + Allwinner D1 nezha(not MCU)
     - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
