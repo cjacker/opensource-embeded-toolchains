@@ -87,7 +87,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 
 **64 bit**
 - RISC-V 64bit
-  + Kendryte K210, working in progress
+  + [Kendryte K210](https://github.com/cjacker/opensource-toolchain-kendryte) **[DONE]**
   + Allwinner D1 nezha(not MCU)
     - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
 
