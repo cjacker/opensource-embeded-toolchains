@@ -78,12 +78,13 @@ Every tutorial and related resources will be provided in a seperate git repo:
     - include WCH RISC-V BLE (CH571/573/581/582/583)
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
-  + ~~AB32VG1~~, no official program tool for linux, no opensource program tool.
-  + ~~CSV32RV20~~, no offcial program tool for linux, no opensource program tool.
-  + ~~CM32M4xxxR~~
+  + ~~AB32VG1~~, flash tool is only for windows and close source, it seems already abandoned and nobody use it.
+  + ~~CSV32RV20~~, no opensource flash tool. no workable flash tool for linux.
+  + ~~CM32M4xxxR~~, based on nuclei riscv core, **this is the only one I even can not get a timer work, should avoid using it**
 - C-Sky 32bit
   + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
     - include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
+    - **NOTE, C-Sky debug server is close source, these is no other debug solution.**
 
 **64 bit**
 - RISC-V 64bit
