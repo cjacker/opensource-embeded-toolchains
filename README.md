@@ -78,7 +78,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
     - include WCH RISC-V BLE (CH571/573/581/582/583)
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
-  + CSM32RV20
+  + [CSM32RV20](http: //github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
   + ~~AB32VG1~~, flash tool is only for windows and close source, it seems already abandoned and nobody use it.
   + ~~CM32M4xxxR~~, based on nuclei riscv core, **this is the only one I even can not get a timer work with official EVB and official demo, should avoid to use it**
 - C-Sky 32bit
