@@ -80,7 +80,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
   + [CSM32RV20](http://github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
   + ~~AB32VG1~~, flash tool is only for windows and close source, it seems already abandoned and nobody use it.
-  + ~~CM32M4xxxR~~, based on nuclei riscv core, **this is the only one I even can not get a timer work with official EVB and official demo, should avoid to use it**
+  + ~~CM32M4xxxR~~, based on nuclei riscv core, **this is the only one I even can not get a timer work with official EVB and official demo.**
 - C-Sky 32bit
   + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
     - include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
