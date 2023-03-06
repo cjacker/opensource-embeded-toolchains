@@ -75,19 +75,20 @@ Every tutorial and related resources will be provided in a seperate git repo:
  
 - RISC-V 32bit
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
-    - include CH32V0 / 1 / 2 / 3 and WCH RISC-V BLE (CH571/573/581/582/583)
+    - Include CH32V0 / 1 / 2 / 3 and WCH RISC-V BLE (CH571/573/581/582/583)
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [CSM32RV20](http://github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
-    - CSM forked OpenOCD to support their private CJ-Link and flash driver but closed sources, **it's no doubt violation of GPL license**.
+    - CSM forked OpenOCD to support their private CJ-Link and flash driver but closed sources
+    - **It's no doubt violation of GPL license**.
   + ~~AB32VG1~~, flash tool is only for windows and close sources, it seems already abandoned and nobody use it.
   + ~~CM32M4xxxR~~, based on nuclei N308 core, **this is the only one I even can not get a timer work with official EVB and official demo codes.**
   
 - C-Sky 32bit
   + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
-    - include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
-    - **NOTE, C-Sky debug server is close source, these is no other debug solution.**
+    - Include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
+    - **C-Sky debug server is close source, these is no other debug solution.**
 
 **64 bit**
 - RISC-V 64bit
