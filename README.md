@@ -72,15 +72,18 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [CH32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
+ 
 - RISC-V 32bit
-  + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
     - include CH32V0 / 1 / 2 / 3 and WCH RISC-V BLE (CH571/573/581/582/583)
-  + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
+  + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
+  + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [CSM32RV20](http://github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
-  + ~~AB32VG1~~, flash tool is only for windows and close source, it seems already abandoned and nobody use it.
-  + ~~CM32M4xxxR~~, based on nuclei riscv core, **this is the only one I even can not get a timer work with official EVB and official demo.**
+    - CSM forked OpenOCD to support their private CJ-Link and flash driver but closed sources, it's no doubt violation of GPL license.
+  + ~~AB32VG1~~, flash tool is only for windows and close sources, it seems already abandoned and nobody use it.
+  + ~~CM32M4xxxR~~, based on nuclei N308 core, **this is the only one I even can not get a timer work with official EVB and official demo codes.**
+  
 - C-Sky 32bit
   + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
     - include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
