@@ -75,7 +75,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 - RISC-V 32bit
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [CH32V](https://github.com/cjacker/opensource-toolchain-ch32v) **[DONE]** 
-    - include WCH RISC-V BLE (CH571/573/581/582/583)
+    - include CH32V0 / 1 / 2 / 3 and WCH RISC-V BLE (CH571/573/581/582/583)
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [HPM6750](https://github.com/cjacker/opensource-toolchain-hpm6750) **[DONE]**
   + [CSM32RV20](http://github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
