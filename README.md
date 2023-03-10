@@ -61,7 +61,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
 - [PIC](https://github.com/cjacker/opensource-toolchain-pic) **[DONE]**
-- Padauk, working in progress
+- Padauk, working in progress.
 
 **16 bit**
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
@@ -80,21 +80,22 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32VF103](https://github.com/cjacker/opensource-toolchain-gd32vf103) **[DONE]**
   + [Bouffalo Lab BL60x/61x/70x/80x](https://github.com/cjacker/opensource-toolchain-bouffalo-lab) **[DONE]**
   + [CSM32RV20](http://github.com/cjacker/opensource-toolchain-csm32rv20) **[DONE]**
-    - CSM forked OpenOCD to support their private CJ-Link and flash driver but closed sources
+    - **CSM forked OpenOCD to support their private CJ-Link and flash driver but closed all sources**
     - **It's no doubt violation of GPL license**.
+    - **Please do NOT buy or use it**.
   + ~~AB32VG1~~, flash tool is only for windows and close sources, it seems already abandoned and nobody use it.
   + ~~CM32M4xxxR~~, based on nuclei N308 core, **this is the only one I even can not get a timer work with official EVB and official demo codes.**
   
 - C-Sky 32bit
   + [W80X / AIR101 / AIR103](https://github.com/cjacker/opensource-toolchain-w80x-air101-air103) **[DONE]**
     - Include Winner Micro W800/W801/W806 and OpenLuat AIR101/AIR103
-    - **C-Sky debug server is close source, these is no other debug solution.**
+    - **C-Sky debug server is close source, these is no other opensource debug solution.**
 
 **64 bit**
 - RISC-V 64bit
   + [Kendryte K210](https://github.com/cjacker/opensource-toolchain-kendryte) **[DONE]**
   + Allwinner D1 nezha(not MCU)
-    - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification.
+    - PhoenixCard (the SD card image flashing tool) is not opensource and only for Windows, seems without image format specification exposed.
 
 **FPGA**
 - [Lattice ECP5/ICE40 FPGA](https://github.com/cjacker/opensource-toolchain-fpga) **[DONE]**
