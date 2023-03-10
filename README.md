@@ -86,8 +86,8 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + ~~CM32M4xxxR~~, based on nuclei N308 core, **this is the only one I even can not get a timer work with official EVB and official demo codes.**
   
 - C-Sky 32bit
-  + [W80X](https://github.com/cjacker/opensource-toolchain-w80x) **[DONE]**
-    - Include Winner Micro W800/W801/W806 and Luat AIR101/AIR103
+  + [W80X / AIR101 / AIR103](https://github.com/cjacker/opensource-toolchain-w80x-air101-air103) **[DONE]**
+    - Include Winner Micro W800/W801/W806 and OpenLuat AIR101/AIR103
     - **C-Sky debug server is close source, these is no other debug solution.**
 
 **64 bit**
