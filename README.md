@@ -83,8 +83,15 @@ Every tutorial and related resources will be provided in a seperate git repo:
     - **CSM forked OpenOCD to support their private CJ-Link and flash driver but closed all sources**
     - **It's no doubt violation of GPL license**.
     - **Please do NOT buy or use it**.
-  + ~~AB32VG1~~, flash tool is only for windows and close sources, it seems already abandoned and nobody use it.
-  + ~~CM32M4xxxR~~, based on nuclei N308 core, **this is the only one I even can not get a timer work with official EVB and official demo codes.**
+  + ~~AB32VG1~~
+    - flash tool is only for windows and close sources
+    - several years no update.
+    - it seems already abandoned and nobody use it.
+  + ~~CM32M4xxxR~~
+    - based on nuclei N308 core.
+    - Lone time no update to firmware library. It even can not find a proper toolchain which defined in `npk.yaml`.
+    - **this is the only one I even can not get a timer work with official EVB, official firmware library and official demo codes.**
+    - I am mostly sure that almost no one continue to maintain it.
   
 - C-Sky 32bit
   + [W80X / AIR101 / AIR103](https://github.com/cjacker/opensource-toolchain-w80x-air101-air103) **[DONE]**
