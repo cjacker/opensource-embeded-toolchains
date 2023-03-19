@@ -72,6 +72,8 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [CH32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
+  + W600, working in progress
+    - Winner Macro W600 is ESP8266 alternative
   
 - Xtensa 32bit
   + [ESP8266](https://github.com/cjacker/opensource-toolchain-esp8266) **[DONE]**
