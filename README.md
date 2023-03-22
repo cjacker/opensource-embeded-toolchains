@@ -61,7 +61,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
 - [STM8](https://github.com/cjacker/opensource-toolchain-stm8) **[DONE]**
 - [AVR](https://github.com/cjacker/opensource-toolchain-avr) **[DONE]**
 - [PIC](https://github.com/cjacker/opensource-toolchain-pic) **[DONE]**
-- Padauk, working in progress.
+- [Padauk](https://github.com/cjacker/opensource-toolchain-padauk) **[DONE]**
 
 **16 bit**
 - [MSP430](https://github.com/cjacker/opensource-toolchain-msp430) **[DONE]**
@@ -72,7 +72,7 @@ Every tutorial and related resources will be provided in a seperate git repo:
   + [GD32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [CH32F](https://github.com/cjacker/opensource-toolchain-stm32) **[DONE]**
   + [RPI Pico RP2040 (ARM Cortex-M0)](https://github.com/cjacker/opensource-toolchain-rp2040) **[DONE]**
-  + W600, working in progress
+  + [W600](https://github.com/cjacker/opensource-toolchain-w60x) **[DONE]**
     - Winner Macro W600 is ESP8266 alternative
   
 - Xtensa 32bit
